@@ -1,0 +1,15 @@
+{
+  "name": "react-ui-library",
+  "version": "0.1.0",
+  "description": "Component library made with React, Styled-components, Webpack, and Stylebook",
+  "main": "index.ts",
+  "repository": "git@github.com:CamilleHbp/react-ui-library.git",
+  "author": "Camille HBP <camille.hbp@pm.me>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
