@@ -7,12 +7,19 @@
   "author": "Camille HBP <camille.hbp@pm.me>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc src/index.ts"
+    "build": "tsc src/index.ts",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.0.1",
     "@commitlint/config-conventional": "^16.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "eslint": "^8.6.0",
+    "eslint-plugin-react": "^7.28.0",
     "husky": "^7.0.4",
+    "lint-staged": "^12.1.5",
+    "prettier": "2.5.1",
     "typescript": "^4.5.4"
   }
 }
